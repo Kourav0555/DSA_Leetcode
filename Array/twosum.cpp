@@ -5,7 +5,6 @@
 #include <unordered_map>
 using namespace std;
 
-// Function to find the two indices whose values add up to target
 
 vector<int> twoSum(const vector<int>& nums, int target){
     unordered_map<int, int> mp; 
@@ -21,7 +20,7 @@ vector<int> twoSum(const vector<int>& nums, int target){
         mp[nums[i]] = i;
 }
 
-    // If nothing found 
+    
     return {};
 }
 
