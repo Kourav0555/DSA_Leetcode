@@ -3,9 +3,6 @@
 #include <unordered_map>
 using namespace std;
 
-// Function to find the two indices whose values add up to target
->>>>>>> 595dd24acb5634320b6d9f4a9473651c1e1f9f21
-
 vector<int> twoSum(const vector<int>& nums, int target){
     unordered_map<int, int> mp; 
 
