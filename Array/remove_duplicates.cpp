@@ -1,3 +1,5 @@
+//Q.no.26  Remove duplicates from sorted array
+
 #include <iostream>
 using namespace std;
 
