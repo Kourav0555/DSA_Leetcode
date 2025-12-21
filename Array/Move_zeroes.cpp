@@ -1,7 +1,9 @@
+//Q NO. 283  MOVE ZEROES
+
+
 #include<iostream>
 using namespace std;
 #include<vector>
- //move zeroes to end of array
 
 class Solution {
 public:
