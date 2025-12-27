@@ -1,6 +1,5 @@
 //Q NO. 283  MOVE ZEROES
 
-
 #include<iostream>
 using namespace std;
 #include<vector>
@@ -9,8 +8,7 @@ class Solution {
 public:
     void moveZeroes(vector<int>& nums) {
         int n = nums.size();
-        int j = 0; 
-
+        int j = 0;
 
         for (int i = 0; i < nums.size(); i++) {
             //if i th element is not zero, then we swap it with jth element
