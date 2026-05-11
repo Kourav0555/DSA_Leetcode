@@ -7,7 +7,7 @@ using namespace std;
 
 class Solution {
 public:             
-    vector<int> majorityElement(vector<int>& nums) {
+    vector<int> majorityElement(vector<int>& nums) {// Function to find all elements that appear more than n/3 times in the array
         vector<int> result;
         int n = nums.size();
         if (n == 0) return result;
@@ -16,7 +16,7 @@ public:
 
         for (int i = 0; i < n; ) {
             int count = 1;
-            while (i + count < n && nums[i] == nums[i + count]) {
+            while (i + count < n && nums[i] == nums[i + count]) {// Count occurrences of the current element    
                 count++;
             }
             if (count > n / 3) {
@@ -36,8 +36,8 @@ int main() {
     vector<int> nums = {3, 2, 3};
     
     Solution solution;
-    vector<int> output = solution.majorityElement(nums);
-    
+    vector<int> output = solution.majorityElement(nums);//
+
     for (int num : output) {
         cout << num << " ";
     }
