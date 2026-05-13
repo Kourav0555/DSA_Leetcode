@@ -15,7 +15,6 @@ public:
         return total_sum - actual_sum; // The diff will give us the missing number
     }
 };
-
     int main() {
         vector<int> nums = {3, 0, 1}; // Example input array with a missing number
         Solution solution;
