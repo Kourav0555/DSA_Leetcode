@@ -5,14 +5,14 @@
 using namespace std;
 class Solution {
 public:
-    int missingNumber(vector<int>& nums) { // Function to find the missing number in the array
+    int missingNumber(vector<int>& nums) { // Fn to find the  missing number in the  arr
         int n = nums.size();
-        int total_sum = n * (n + 1) / 2; // Calculate the expected sum of numbers from 0 to n
+        int total_sum = n * (n + 1) / 2; // Calculate expected sum of numbers from 0 to n
         int actual_sum = 0;
         for (int num : nums) {
-            actual_sum += num; // Calculate the actual sum of the numbers in the array
+            actual_sum += num; // Calculate the actual sum of the no. in the array
         }
-        return total_sum - actual_sum; // The difference will give us the missing number
+        return total_sum - actual_sum; // The diff will give us the missing number
     }
 };
 
