@@ -6,6 +6,7 @@
 using namespace std;
 
 class Solution {
+    
 public:
     vector<vector<int>> permuteUnique(vector<int>& nums) { // Function to find all unique permutations of the input array
         vector<vector<int>> result;
@@ -30,10 +31,13 @@ private:
     }
 };
 
-// Example usage
+
+
+
 
 int main() {
-    vector<int> nums = {1, 1, 2};
+
+    vector<int> nums = {1, 1, 4};
     
     Solution solution;
     vector<vector<int>> output = solution.permuteUnique(nums); // Get all unique permutations
@@ -46,4 +50,3 @@ int main() {
     }
     return 0;
 }
-
