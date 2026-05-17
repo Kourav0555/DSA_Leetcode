@@ -16,6 +16,8 @@ public:
         
         vector<int> start_times; // Vector to store start times of meetings
         vector<int> end_times;   // Vector to store end times of meetings
+
+        
         
         for (const auto& interval : intervals) {
             start_times.push_back(interval[0]); // Add start time to the vector
@@ -47,4 +49,3 @@ int main() {
     cout << "Minimum number of meeting rooms required: " << result << endl; // Output the result
     return 0;
 }
-
