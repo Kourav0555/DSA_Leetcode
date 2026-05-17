@@ -17,8 +17,6 @@ public:
         vector<int> start_times; // Vector to store start times of meetings
         vector<int> end_times;   // Vector to store end times of meetings
 
-        
-        
         for (const auto& interval : intervals) {
             start_times.push_back(interval[0]); // Add start time to the vector
             end_times.push_back(interval[1]);   // Add end time to the vector
