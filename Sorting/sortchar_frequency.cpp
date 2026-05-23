@@ -21,15 +21,12 @@ string frequencySort(string s) {
     for(auto x : freq) {
         vec.push_back(x);
     }
-
     // Sort by frequency descending
     sort(vec.begin(), vec.end(),
         [](pair<char,int> a, pair<char,int> b) {
             return a.second > b.second;
         });
-
     string ans = "";
-
     // Create final string
     for(auto x : vec) {
 
