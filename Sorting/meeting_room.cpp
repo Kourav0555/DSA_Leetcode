@@ -22,8 +22,8 @@ public:
             end_times.push_back(interval[1]);   // Add end time to the vector
         }
         
-        sort(start_times.begin(), start_times.end()); // Sort start times
-        sort(end_times.begin(), end_times.end());     // Sort end times
+        sort(start_times.begin(), start_times.end()); 
+        sort(end_times.begin(), end_times.end());     
         
         int rooms_needed = 0; // Variable to keep track of rooms needed
         int end_index = 0;    // Index to track the current end time
