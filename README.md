@@ -13,4 +13,3 @@ I am trying to understand problems using common patterns such as:
 - Greedy (learning phase)
 
 The goal is to focus on **understanding the logic and approach**, not just solving problems.
-
